@@ -1,1 +1,3 @@
-# Recipe-Meal-Planner-and-Grocery-List
+# Recipe-Meal-Planner-and-Grocery-List-Generator
+
+Introducing a Recipe Meal Planner and Grocery List webpage, crafted with HTML, CSS, and JavaScript. This user-friendly tool aids in organizing meals and generating grocery lists effortlessly. Seamlessly plan your weekly meals, browse a vast recipe database, and compile your shopping list all in one place. However, this is just the beginning – more features and enhancements are yet to come. Stay tuned as we continue to enhance this base website for an even more enriching meal planning experience. Simplify your meal prep routine today with our Recipe Meal Planner and Grocery List!
