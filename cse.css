@@ -1,0 +1,98 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 50px;
+    padding: 50px;
+    background-color:#e3c38c;
+    background-repeat: repeat;
+    background-position: center;
+    background-image: url(https://img.freepik.com/premium-photo/pattern-different-fruits-with-yellow-background-that-says-apple_900958-14061.jpg);
+}
+h1{
+ 
+    text-align: center;
+    font-size: 80px;
+    text-decoration:underline 5px;
+}
+h2{
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+}
+
+
+
+header {
+     background-image: url("back.jpg"); 
+    /* background-color: aqua; */
+    /* background-color: #a2af4c;
+    color: white;  */
+    text-align: center;
+     padding: 1em 0; 
+    width: 100%;
+}
+.photo {
+
+    float: right;
+    height: 600px;
+    width: 700px;
+    
+}
+.body{
+    font-weight: bold;
+}
+
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    margin-left: 20px;
+}
+.image-container {
+    width:100%;
+    margin: 20px;
+    padding: 10px;
+    background-image:url(https://static.vecteezy.com/system/resources/previews/010/368/246/non_2x/seamless-food-pattern-doodle-food-background-free-vector.jpg);
+    border-radius: 4px;
+    border-color: #030303;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-style: groove; /* Hide any overflowing content */
+}
+
+/* Style the image to fit the container */
+.image-container img {
+    max-width: 100%; /* Make the image fill the container width */
+    height: auto;
+ 
+    display: block; /* Remove extra spacing below the image */
+     margin: auto; /* Remove extra spacing below the image */
+    margin: auto;
+}
+.image-container a{
+    margin: 10px;
+    padding:auto;
+    font-size: 10px;
+    background-color: #030303;
+    
+
+}
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: rgba(255, 213, 0, 0.669);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 0.5em ;
+    bottom: 0;
+     width: 100%;
+    font-size: 30px; 
+} 
+ .photo {
+    width: 200px ;
+    height: 200px;
+} 

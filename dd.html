@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Planner</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #6f6e56;
+            color: rgb(23, 23, 23);
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            border-color: #030303;
+            border-style: groove ;
+            background-color:#989376;
+        }
+        h2 {margin: 0;
+            border-color: #7a6947;
+            border-style: groove;
+            color: #030303;
+            text-align: center;
+            background-color: rgb(110, 107, 85);
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+            background-color: #767c98;
+            background-attachment: scroll;
+            background-image: url(https://media.istockphoto.com/id/515373062/vector/food-seamless-background.jpg?s=612x612&w=0&k=20&c=hexa_lBms2zsFxEHASUeYhNu17i8JfV3TGOoDark-tk=);
+            border-color: #030303;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .meal-plan {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .meal {
+            width: calc(33.33% - 10px);
+            margin: 20px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 4px;
+            border-color: #030303;
+            border-style: groove;
+        }
+
+        .meal img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .meal-name {
+            font-weight: bold;
+            text-decoration-line: underline;
+        }
+
+        footer {
+            background-color: rgb(100, 102, 79);
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        function myRECIPIE1()
+        {
+            window.location.href="breakfast.html";
+        }
+        function myRECIPIE2()
+        {
+            window.location.href="lunch.html"
+        }
+        function myRECIPIE3()
+        {
+            window.location.href="snacks.html"
+        }
+        function myRECIPIE4()
+        {
+            window.location.href="dinner.html"
+        }
+    </script>
+    <header>
+        <h1>Meal Planner</h1>
+    </header>
+
+    <div class="container">
+        <h2>Your Meal Plan For Today</h2>
+        <div class="meal-plan">
+            <div class="meal">
+                <img src="https://www.eatme.eu/media/aqndvmdc/avocado-toast-met-roerei-en-avocado.jpg?center=0.6814887063713958,0.49378506021700369&mode=crop&width=1536&height=1024&rnd=132857672350500000" alt="Meal 1">
+            <p class="meal-name">Breakfast</p>
+            <p>Scrambled eggs with toast and avocado.</p>
+            <input type="button" name="more" value="GROCERY AND RECIPE" onclick="myRECIPIE1()">
+            </div>
+
+            <div class="meal">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCVzxlgmbQcTp_9eMqq8S4Ba-VtBO-7SOLbQ&usqp=CAU" alt="Meal 2">
+                <p class="meal-name">Lunch</p>
+                <p>Grilled chicken salad with balsamic dressing.</p>
+                <input type="button" name="more" value="GROCERY AND RECIPE" onclick="myRECIPIE2()">
+            </div>
+
+            <div class="meal">
+                <img src="https://www.tastingtable.com/img/gallery/30-healthy-snack-ideas-that-wont-ruin-your-diet/intro-1643925756.webp" alt="Meal 3">
+                <p class="meal-name">Snacks</p>
+                <p>Dried fruits and nuts along with fresh fruits.</p>
+                <input type="button" name="more" value="GROCERY AND RECIPE" onclick="myRECIPIE3()">
+            </div>
+
+            <div class="meal">
+                <img src="https://tastendash.com/wp-content/uploads/Salmon-1.jpg" alt="Meal 3">
+                <p class="meal-name">Dinner</p>
+                <p>Baked salmon with quinoa and steamed broccoli.</p>
+                <input type="button" name="more" value="GROCERY AND RECIPE" onclick="myRECIPIE4()">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2023 Meal Planner. All rights reserved.
+    </footer>
+</body>
+</html>
